@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portable Kitchens</title>
+
+    <link rel="stylesheet" href="css/libs/bootstrap.spacelab.min.css">
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/libs/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/libs/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/libs/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/appStyle.css">
+  </head>
+
+  <body>
+    <div id="container" class="">
+      <div id="overlay"></div>
+      <form class="form-wrapper cf" id="foodSearchForm" style="display:none">
+        <input id="foodSearchInput" type="text" placeholder="What are you craving for..." required>
+        <button type="submit">SEARCH</button>
+      </form>
+
+      <div id="vendorsBox">
+        <div id="vendorList"><ul></ul></div>
+      </div>
+
+      <div id="vendorMenuItems" style="display:none">
+        <div class="holder">
+          <div class="topbar">
+            <button style="padding: 5px 10px 0 0; opacity: 0.5" class="close menuClose" id="closeMenu">x</button>
+            <h1>MENU</h1>
+          </div>
+          <div class="inbar">
+            <ul id="menuList">
+            </ul>
+          </div>  
+        </div>  
+      </div>
+    </div>
+
+    <div id="map_canvas"></div>
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/jquery-ui.min.js"></script>
+    <script src="js/libs/underscore-min.js"></script>
+    <script src="js/libs/backbone-min.js"></script>
+
+    <script src="js/models/vendor.js"></script>
+    <script src="js/models/foodItem.js"></script>
+
+    <script src="js/collections/vendors.js"></script>
+    <script src="js/collections/foodItems.js"></script>
+
+    <script src="js/views/vendorMapView.js"></script>
+    <script src="js/views/vendorMarkerView.js"></script>
+    <script src="js/views/vendorLinkView.js"></script>
+    <script src="js/views/vendorListView.js"></script>
+    <script src="js/views/vendorMenuView.js"></script>
+
+    <script src="js/config.js"></script>
+    <script src="js/application.js"></script>
+
+  </body>
+</html>
