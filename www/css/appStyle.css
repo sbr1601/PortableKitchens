@@ -129,8 +129,9 @@
 
 .holder {
   position: absolute;
-  top: 165px;
-  left: 565px;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -150px;
   width: 300px;
   overflow: hidden;
   font: 400 16px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
