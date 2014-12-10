@@ -51,6 +51,17 @@ Security:
  - Setup reports around the server's access logs to detect any attempts at XSS attacks
  - Implement IP rate limiting to stop automated scripts from flooding the server with API requests
 
+# External Code
+ - JS
+  - All files inside www/js/libs are Javascript libraries downloaded from websites
+
+ - CSS
+  - All files inside www/css/libs are downloaded UI stylesheets
+  - 70% of the CSS code in www/css/appStyle.css was used from various different sources (mostly tutorials) online
+
+ - PHP
+  - All code inside thirdparty was code generate by the Slim Framework
+
 # Screenshots
 
 ![Map View] (http://i.imgur.com/klgoIJM.png http://i.imgur.com/k4DoHQH.png)
