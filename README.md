@@ -2,7 +2,7 @@
 Portable Kitchens (http://sbr1601.com/PortableKitchens/) is an interactive web application that allows users to search for food trucks by cuisine, or food items.
 It displays the list of vendors on Google Maps and shows the menu for each vendor when clicked.
 
-# Motivation beind Portable Kitchens
+# Motivation behind Portable Kitchens
 Everybody loves Food Trucks. But there is no good way for users to search for food trucks by "What they're craving for". There is no single application that specifies all the amazing food items available at a food truck vendor.
 Portable Kitchens allows users to do exactly that. Users can search for items they want to eat, and the website will list all the vendors with that item on their menu.
 
