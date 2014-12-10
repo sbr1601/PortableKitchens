@@ -6,7 +6,7 @@ require_once PK_PATH . '/include/class/FoodItems.php';
 
 class Vendors {
 
-  const VENDOR_LIMIT = 10;
+  const VENDOR_LIMIT = 20;
 
   /**
    * Get a random list of vendors who have at least 1 food item in their menu
